@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top my-dark p-0">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top p-0">
         <div class="container">
             <a class="navbar-brand brand ms-5" href="./index.html">MyPortfolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,10 +31,10 @@
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">contact</a>
+                        <a class="nav-link" href="#tools">tools</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tools">tools</a>
+                        <a class="nav-link" href="#contact">contact</a>
                     </li>
                 </ul>
             </div>
@@ -45,19 +45,33 @@
     <div class="container">
         <!-- Landing Page Start -->
         <div class="container-fluid p-0 content-bg" id="landing">
-            <div class="row p-0 m-5">
-                <div class="col-12 p-0 col-md-6 ms-auto order-1 order-sm-2 text-center text-justify-center mt-5">
-                    <h1 class=" fw-bolder mt-5">Full Stack Web Developer</h2>
-                    <h4 class="text-light fw-bold">
+            <h1 class="mt-5 text-center justify-content-center">Full Stack Web Developer</h1>
+            <div class="row p-0 ms-5 me-5 mt-5">
+                <div class="col-12 p-0 col-md-6 ms-auto order-2 text-center text-justify-center">
+                    <h2>Character Introduction</h2>
+                    <h5 class="text-light fw-bold">
                         My name is Alvin Lina
-                    </h4>
+                    </h5>
                     <p class="text-light fs-5">
                          I am a college undergrad. Prior to attending Zuitt bootcamp, I self studied HTML, CSS, Bootstrap, JavaScript, Python, PHP, MySQL, Ruby on rails, and JSON. 
                     </p>
-                    <p class="text-light fs-6 mt-5">I worked as a freelancer for some time.</p>
+                    <p class="text-light fs-5">I worked as a freelancer for some time.</p>
                 </div>
-                 <div class="col-12 p-0 col-md-6 order-sm-1 order-1 mt-5 mb-5">
-                    <img class="img-fluid mt-5" src="./images/1302692.jpg" alt="hiroi kikuri">
+                 <div class="col-12 p-0 col-md-6 order-1 mt-5 mb-5">
+                    <img class="img-fluid" src="./images/1302692.jpg" alt="hiroi kikuri">
+                 </div>
+            </div>
+            <div class="row p-0 ms-5 me-5">
+                <div class="col-12 p-0 col-md-6 ms-auto order-2 order-md-1 text-center text-justify-center">
+                    <h2>Hobbies</h2>
+                    <p class="text-light fs-5">
+                         I like to play games and watch anime on my free time 
+                    </p>
+                    <p class="text-light fs-5">I like to play Valorant, CS:GO, DotA2 (Stopped) and more.</p>
+                    <p class="text-light fs-5">For anime, I used to watch them seasonal, and switch to binge watching on my free time.</p>
+                </div>
+                 <div class="col-12 p-0 col-md-6 order-1 order-md-2 mt-5 mb-5">
+                    <img class="img-fluid" src="./images/331231.jpg" alt="Girl Gaming">
                  </div>
             </div>
         </div>
@@ -75,14 +89,14 @@
                     </div>
                 </div>
                 <div class="card content-bg col-md-3 mt-3">
-                    <img class="img-fluid" src="./images/node4.png" alt="Front End">
+                    <img class="img-fluid" src="./images/node4.png" alt="Back End">
                     <div class="card-body">
                         <h5>Front End</h5>
                         <p class="card-text text-light">A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side.</p>
                     </div>
                 </div>
                 <div class="card content-bg col-md-3 mt-3">
-                    <img class="img-fluid" src="./images/full-stack-devlopment-min.png" alt="Front End">
+                    <img class="img-fluid" src="./images/full-stack-devlopment-min.png" alt="Full Stack">
                     <div class="card-body">
                         <h5>Front End</h5>
                         <p class="card-text text-light">A Front-End Developer is someone who creates websites and web applications. The difference between Front-End and Back-End is that Front-End refers to how a web page looks, while back-end refers to how it works. You can think of Front-End as client-side and Back-End as server-side.</p>
@@ -93,8 +107,8 @@
         <!-- Projects End -->
 
         <!-- Tools Start -->
-        <div class="container-fluid content-bg justify-content-center p-0 mt-5 text-center" id="tools">
-            <h1>Tools</h1>
+        <div class="container-fluid content-bg justify-content-center p-0 text-center" id="tools">
+            <h1 class="mt-5">Tools</h1>
             <div class="row p-0 mt-5">
                 <div class="col col-12 col-md-3 p-3 text-center justify-content-center ms-auto">
                     <h5>HTML</h5>
@@ -115,12 +129,12 @@
             <div class="row p-0 mt-5">
                 <div class="col col-12 col-md-3 p-3 text-center justify-content-center ms-auto">
                     <h5>Node.js</h5>
-                    <img class="img-fluid" src="./images/logo-nodejs.png" alt="Node">
+                    <img class="img-fluid bg-light" src="./images/logo-nodejs.png" alt="Node">
                     <p class="text-light">Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more. Node.js is a back-end JavaScript runtime environment, runs on the V8 JavaScript Engine, and executes JavaScript code outside a web browser.</p>
                 </div>
                 <div class="col col-12 col-md-3 p-3 text-center justify-content-center ms-auto">
                     <h5>Express.js</h5>
-                    <img class="img-fluid" src="./images/logo-expressjs.png" alt="Express">
+                    <img class="img-fluid bg-light" src="./images/logo-expressjs.png" alt="Express">
                     <p class="text-light">Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.</p>
                 </div>
                 <div class="col col-12 col-md-3 p-3 text-center justify-content-center ms-auto me-5">
@@ -137,7 +151,7 @@
             <h1>Contact Us</h1>
             <div class="row justify-content-center p-md-1 mb-3">
                 <div class="rounded bg-light col-12 col-md-8 col-xl-4 p-1 n-1 mb-3">
-                    <form >
+                    <form class="fw-bold">
                         <div class="form-group">
                             <label for="name">Name:</label>
                             <input type="text" class="form-control mt-1" id="name" placeholder="Your Name Here" required>
@@ -159,7 +173,7 @@
                             </select>
                         </div>
                         <div class="form-group mt-1">
-                            <label for="msg">Message</label>
+                            <label for="msg">Message:</label>
                             <textarea class="form-control mt-1" name="msg" id="msg" cols="30" rows="5"></textarea>
                         </div>
                         <button type="button" class="btn btn-dark mt-3 mb-3" data-bs-toggle="modal" data-bs-target="#submit-modal">Send Email</button>

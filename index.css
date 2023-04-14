@@ -33,11 +33,6 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-size:30px !important;
 }
 
-.nav-link:hover, .nav-link:focus {
-    color: #DA4453 !important;
-    text-decoration: none;
-}
-
 .nav-link {
     text-transform: uppercase;
     color: #DADADA !important;
@@ -47,6 +42,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     transition: all 0.3s;
     font-family: 'Open Sans', sans-serif;
     font-weight: normal !important;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #DA4453 !important;
+    text-decoration: none;
 }
 
 .content-bg {
