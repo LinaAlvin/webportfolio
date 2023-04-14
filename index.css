@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #424242;
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    color: #DA4453;
+    font-weight: 700;
+    font-family: 'Open sans', sans-serif;
+}
+
+.my-dark {
+    background-color: #3a3a3a !important;
+}
+
+.brand {
+    background-image: -webkit-radial-gradient(center, 3em 40px, #00ccff, #9a87fa);
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) ) !important;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight:bold !important;
+    font-size:30px !important;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #DA4453 !important;
+    text-decoration: none;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: #DADADA !important;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal !important;
+}
+
+.content-bg {
+    background-color: #262626;
+    box-shadow: 1px 1px 4px #ccc;
+}
+
+textarea {
+    resize: none;
+}
