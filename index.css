@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .content-bg {
     background-color: #262626;
     box-shadow: 1px 1px 4px #ccc;
+    padding: 1%;
 }
 
 textarea {
