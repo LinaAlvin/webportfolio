@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .my-dark {
     background-color: #3a3a3a !important;
+    -webkit-transition: all 0.3s;
+}
+
+.bg-dark {
+    -webkit-transition: all 0.3s;
 }
 
 .brand {
